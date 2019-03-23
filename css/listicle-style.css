@@ -27,7 +27,7 @@ header {
   justify-content:center;
   align-items:center;
 }
-img .profile {
+.profileimg {
   border-radius:100%;
   width:100px;
   margin:-50px 0 5px 0;
