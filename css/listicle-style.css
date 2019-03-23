@@ -32,6 +32,7 @@ header {
   width:100px;
   margin:-50px 0 5px 0;
   border: solid 1px white;
+  z-index:1;
 }
 .date{
   display:inline-block;
