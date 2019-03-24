@@ -1,16 +1,15 @@
 body{
-  margin:0;
+  margin:0 ;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/header.jpg");
   background-size: cover;
-  position: relative;
+  position: top;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:0px 0px 0px 0px;
 }
 .PageTitle {
   color:white;
@@ -22,7 +21,7 @@ header {
 }
 .profile{
   font-family:'Source Sans Pro',sans-serif;
-  font-size:18px;  
+  font-size:18px;
   color:rgb(51,51,51);
   line-height:24px;
   display:flex;
@@ -30,13 +29,7 @@ header {
   justify-content:center;
   align-items:center;
 }
-.profileimg {
-  border-radius:100%;
-  width:100px;
-  margin:-50px 0 5px 0;
-  border: solid 1px white;
-  z-index:1;
-}
+
 .date{
   display:inline-block;
   font-style:italic;
@@ -58,6 +51,9 @@ header {
   display:inline-block;
   color:rgba(0,0,0,0.25);
   width:40px;
+  margin-left:-80px;
+  padding-right:40px;
+  text-align:right;
 }
 ul{
   list-style:none;
@@ -81,7 +77,13 @@ p{
   line-height:32px;
   color:rgb(51,51,51);
 }
+.profileimg {
+  border-radius:100%;
+  width:100px;
+  margin:-50px 0 5px 0;
+  border: solid 1px white;
+  z-index:1;
+}
 img{
   width:100%;
 }
-
