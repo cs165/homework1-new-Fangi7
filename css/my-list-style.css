@@ -2,7 +2,7 @@ body{
   margin:0 ;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/market.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/market.jpg");
   background-size: cover;
   height: 500px;
   display: flex;
@@ -20,7 +20,7 @@ header {
 }
 .smargin{
   margin:auto;
-  width:66.67%;
+  width:70%;
   font-family: 'Microsoft YaHei','Arial',serief;
   color:rgb(0,51,51);
   line-height:32px;
@@ -39,7 +39,7 @@ a{
   font-family: 'Microsoft YaHei','Arial',serief;
   margin-top:60px;
   font-size:24px;
-  color:#42b4d6;
+  color:LightCyan;
   text-decoration:none;
 }
 a:hover{
@@ -48,7 +48,6 @@ a:hover{
 strong{
   color:rgba(255,130,71,0.75);
   font-size: 24px;
-  line-height:100px;
 }
 p{
   margin:20px 0 20px 0;
@@ -59,11 +58,8 @@ p{
 }
 .flex {
   display: flex;
-  padding: 15px;
-  color:rgba(0,0,51,0.5);
   flex-direction: row;
 }
-
 .flex1 {
   flex: 1;
   margin: 5px;
@@ -73,8 +69,10 @@ p{
 }
 .flex2 {
   flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img{
   height:300px;
