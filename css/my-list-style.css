@@ -35,8 +35,14 @@ li{
   padding-bottom:60px;
   height:300px;
 }
+.title{
+  height:0px;
+  margin:0;
+  font-size:36px;
+  font-style:italic;
+}
 a{
-  font-family: 'Microsoft YaHei','Arial',serief;
+  font-family: 'Microsoft YaHei','monospace',serief;
   margin-top:60px;
   font-size:24px;
   color:LightCyan;
