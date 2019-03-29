@@ -28,7 +28,9 @@ header {
   justify-content:center;
   align-items:center;
 }
-
+.artical{
+  font-style:bold;
+}
 .date{
   font-size:18px;
   display:inline-block;
